@@ -1,0 +1,320 @@
+.hero {
+  background-image: url(../img/restaurant-interior.jpg);
+  height: 620px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #ededed;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  margin-top: 65px;
+  color: #fff;
+}
+
+.hero .background {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.hero .background .container {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .background .container .content h1 {
+  color: #fff;
+  line-height: 1;
+  font-size: 2.625em;
+  margin: 0;
+  font-weight: 600;
+}
+
+.hero .background .container .content p {
+  font-size: 1.75rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.title {
+  padding-top: 40px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.title span {
+  width: 120px;
+  height: 2px;
+  background-color: #e1e1e1;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.title span em {
+  width: 60px;
+  height: 2px;
+  background-color: #e54750;
+  display: block;
+  margin: auto;
+}
+
+.title h2 {
+  max-width: inherit;
+  font-size: 2.125rem;
+}
+
+.title p {
+  font-size: 1.3125rem;
+  font-weight: 300;
+  max-width: inherit;
+}
+
+.main .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main .row .col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.main .row .col .box {
+  padding: 45px 45px 30px 45px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.main .row .col .box h3 {
+  font-weight: 500;
+  font-size: 1.75rem;
+  color: #e54750;
+}
+
+.main .row .col .box p {
+  font-size: 0.9375rem;
+  color: #777;
+  line-height: 1.6;
+}
+
+.main .row .col .box p.lead {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.main .row .col .box .arrow_1, .main .row .col .box .arrow_2 {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 9;
+}
+
+.main .row .col .box .arrow_2 {
+  left: 0;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.gray-bg .row-plans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.gray-bg .row-plans .plan {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33%;
+          flex: 0 0 33%;
+  max-width: 33%;
+  text-align: center;
+  margin: 10px 0;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 20px 20px 30px 20px;
+  text-align: center;
+  border: solid #ededed;
+  border-width: 1px 0 1px 1px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.gray-bg .row-plans .plan .plan-title {
+  position: relative;
+  margin: -25px -25px 30px -25px;
+  padding: 30px 20px 5px 20px;
+  border-bottom: 1px dotted #ccc;
+  font-size: 16px;
+  font-size: 1rem;
+  background-color: #f8f8f8;
+  color: #777;
+}
+
+.gray-bg .row-plans .plan .plan-title h3 {
+  margin-bottom: 0;
+}
+
+.gray-bg .row-plans .plan .plan-title p {
+  margin-bottom: 20px;
+}
+
+.gray-bg .row-plans .plan .plan-price {
+  margin: 0 auto 15px;
+  width: 110px;
+  height: 110px;
+  line-height: 115px;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  background: #777;
+  border-radius: 100px;
+  display: inline-block;
+  text-align: center;
+}
+
+.gray-bg .row-plans .plan .plan-features {
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.gray-bg .row-plans .plan .plan-features li {
+  list-style: none;
+}
+
+.gray-bg .row-plans .plan .plan-features li strong {
+  font-weight: 500;
+}
+
+.gray-bg .row-plans .plan.plan-recommended {
+  margin: 0;
+  background: #fff;
+  border-radius: 10px;
+  margin-right: -5px;
+  position: relative;
+  z-index: 100;
+  border: solid #e54750;
+  position: relative;
+}
+
+.gray-bg .row-plans .plan.plan-recommended .plan-title {
+  background-color: #e54750;
+  border-bottom: none;
+  color: #fff;
+}
+
+.submit-form {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.submit-form .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.submit-form .row .form {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.submit-form .row .form .title {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.submit-form .row .form .title p {
+  margin-bottom: 20px;
+}
+
+.submit-form .row .form .title h4 {
+  font-size: 1.5rem;
+}
+
+.submit-form .row .form form h6 {
+  font-size: 1rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+}
+
+.submit-form .row .form form .form-group {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+}
+
+.submit-form .row .form form .form-group .form-control {
+  width: 100%;
+}
+
+.submit-form .row .form form .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.submit-form .row .form form .content .form-group {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.submit-form .row .form form .add-b {
+  padding-bottom: 15px;
+}
+/*# sourceMappingURL=submit-restaurant.css.map */

@@ -1,0 +1,101 @@
+.hero{
+    position: relative;
+    background-image: url(../img/restaurant-interior.jpg);
+    height: 620px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #ededed;
+    background-size: cover;
+    text-align: center;
+    .background{
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100%;
+        .container{
+            height: inherit;
+        }
+        .content{
+            height: inherit;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: #fff;
+            h1{
+                line-height: 1;
+                font-size: 2.625rem;
+                margin: 0;
+                font-weight: 600;
+            }
+            p{
+                font-size: 1.75rem;
+                font-weight: 300;
+            }
+        }
+    }
+}
+.gray-bg .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+    .box-contacts{
+        flex: 0 0 31%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        padding: 30px 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        font-size: 0.875rem;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+        i{
+            font-size: 2.875rem;
+            background: #f3723b;
+            background: linear-gradient(to bottom, #f3723b, #e54750);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h2{
+            font-weight: 400;
+            margin: 10px 0 10px 0;
+            font-size: 1.3125rem;
+        }
+        a {
+            color: #444;
+        }
+        small {
+            display: block;
+            color: #777;
+        }
+    }
+}
+.contact-form{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    h5{
+        font-size: 1.25rem;
+    }
+    .content{
+        display: flex;
+        justify-content: flex-start;
+        form{
+            flex: 0 0 30%;
+            input,textarea{
+                width: 100%;
+            }
+            
+        }
+        .logo{
+            margin-left: 20%;
+            height: 100%;
+            
+            flex: 0 0 40%;
+            img{
+                height: 100%;
+                width: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+body .header {
+  position: relative;
+  display: block;
+}
+
+body .gray-bg .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .gray-bg .row .box {
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 63.333337%;
+          flex: 0 0 63.333337%;
+  max-width: 63.333334%;
+}
+
+body .gray-bg .row .box h1 {
+  font-size: 1.75rem;
+  padding-bottom: 15px;
+  font-weight: 500;
+}
+
+body .gray-bg .row .box .box-name {
+  padding-bottom: 15px;
+  display: block;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
+
+body .gray-bg .row .box .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+body .gray-bg .row .box .row .slide {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+}
+
+body .gray-bg .row .box .form-group {
+  width: 100%;
+}
+
+body .gray-bg .row .box .form-group input {
+  width: 100%;
+}
+
+body .gray-bg .row .box .form-group textarea {
+  width: 100%;
+}
+
+body .gray-bg .row .box .form-group .fileupload {
+  background-color: #fff;
+  border: 1px solid #ededed;
+  padding: 5px;
+  height: auto;
+  color: #999;
+  border-radius: 3px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+/*# sourceMappingURL=leave-review.css.map */

@@ -1,0 +1,256 @@
+body .header {
+  position: relative;
+  display: block;
+}
+
+.gray-bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gray-bg .container {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.gray-bg .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.gray-bg .container .row .content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.gray-bg .container .row .box-form {
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.gray-bg .container .row .box-form .head {
+  text-align: left;
+  padding: 15px 20px 12px 25px;
+  background-color: #454545;
+  color: #fff;
+}
+
+.gray-bg .container .row .box-form .head h3 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin: 0;
+  color: #fff;
+}
+
+.gray-bg .container .row .box-form .main {
+  padding: 20px 25px 10px 25px;
+}
+
+.gray-bg .container .row .box-form .main a.gradient-btn-1 {
+  font-size: 1.2em;
+}
+
+.gray-bg .container .row .box-form .main form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 10px;
+}
+
+.gray-bg .container .row .box-form .main form .form-group label {
+  font-weight: 400;
+  margin-bottom: 3px;
+}
+
+.gray-bg .container .row .box-form .main form .form-group input {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.gray-bg .container .row .box-form .main form .form-group .form-control {
+  padding: 10px;
+  padding-right: 10px;
+  height: 40px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  border-radius: 3px;
+  border: 1px solid #d2d8dd;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  display: block;
+  width: 100%;
+}
+
+.gray-bg .container .row .box-form .main form .form-group .form-control:focus {
+  border-color: #ccc;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.05);
+}
+
+.gray-bg .container .row .box-form .main form .form-group .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gray-bg .container .row .box-form .main form .form-group .form input {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+          flex: 0 0 45%;
+}
+
+.gray-bg .container .row .box-form .main form .name, .gray-bg .container .row .box-form .main form .address, .gray-bg .container .row .box-form .main form .cardnum, .gray-bg .container .row .box-form .main form .payment_select {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+}
+
+.gray-bg .container .row .box-form .main form .email, .gray-bg .container .row .box-form .main form .city, .gray-bg .container .row .box-form .main form .expdate {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+}
+
+.gray-bg .container .row .box-form .main form .phone, .gray-bg .container .row .box-form .main form .security {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3/5;
+}
+
+.gray-bg .container .row .box-form .main form .postal {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+}
+
+.gray-bg .container .row .box-form .main form .payment_select {
+  background-color: #eeeeee;
+  padding: 15px 15px 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gray-bg .container .row .box-form .main form .payment_select label {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.gray-bg .container .row .box-form .main form .payment_select i {
+  font-size: 1.5em;
+}
+
+.gray-bg .container .row .box-form .main ul {
+  margin-bottom: 1rem;
+}
+
+.gray-bg .container .row .box-form .main li a {
+  padding-left: 25px;
+  color: #444;
+  display: inline-block;
+  position: relative;
+}
+
+.gray-bg .container .row .box-form .main li a::before {
+  font-family: "ElegantIcons";
+  content: "\4f";
+  font-size: 16px;
+  font-size: 1rem;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  line-height: 1;
+}
+
+.gray-bg .container .row .box-form .main li.total {
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.gray-bg .container .row .box-form .main small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.gray-bg .container .row .box-form .main small strong {
+  font-weight: 500;
+}
+
+.gray-bg .container .row .sidebar {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333333%;
+          flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 25px;
+  display: block;
+}
+
+.gray-bg .container .row .sidebar .box-form .main ul {
+  list-style: none;
+  padding: 0;
+}
+
+.gray-bg .container .row .sidebar .box-form .main ul li {
+  margin-bottom: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.gray-bg .container .row .sidebar .box-form .main hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-color: #ededed;
+}
+/*# sourceMappingURL=order.css.map */

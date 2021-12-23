@@ -1,0 +1,62 @@
+body .header {
+  display: block;
+  position: relative;
+}
+
+.gray-bg {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  min-height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gray-bg .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gray-bg .row .box-order {
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 25px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.gray-bg .row .box-order .head {
+  padding: 15px 20px 12px 25px;
+  background-color: #454545;
+  color: #fff;
+}
+
+.gray-bg .row .box-order .head h3 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+}
+
+.gray-bg .row .box-order .main {
+  padding: 100px 75px;
+  text-align: center;
+}
+
+.gray-bg .row .box-order .main h3 {
+  font-size: 1.75rem;
+}
+
+.gray-bg .row .box-order .main p {
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=confirm-order.css.map */

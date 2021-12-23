@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="stylesheet" href="style/fontawesome.css">
+    <link rel="stylesheet" href="style/icons.css">
+    <link rel="stylesheet" href="style/animations.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/order.css">
+
+    <title>FoodExpress</title>
+</head>
+
+<body>
+
+    <!-- Start Header -->
+    <header class="header">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html" class="home">
+                    <img src="img/SVG/headerLogo.svg" alt="FoodExpress">
+                </a>
+            </div>
+
+            <!-- Main Menu -->
+            <nav class="main_menu">
+                <ul class="menu">
+                    <li class="menu_item"><a href="index.html" class="menu_link">Home</a></li>
+                    <li class="menu_item"><a href="top-listing.html" class="menu_link">Listing</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Option 3</a></li>
+                </ul>
+            </nav>
+
+            <!-- User Menu -->
+            <div class="user_menu">
+                <ul class="menu">
+                    <li class="log_in"><a href="#">
+                            <i class="fal fa-sign-in"></i>
+                        </a></li>
+                    <li class="user_fav"><a href="#">
+                            <i class="fal fa-heart"></i>
+                        </a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </header>
+    <!-- End Header -->
+
+
+    <div class="gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="content">
+                    <div class="box-form">
+                        <div class="head">
+                            <h3>Personal Details</h3>
+                        </div>
+                        <div class="main">
+                            <form action="" method="get">
+                                <div class="form-group name">
+                                    <label>First and Last Name</label>
+                                    <input class="form-control" placeholder="First and Last Name">
+                                </div>
+                                <div class="form-group email">
+                                    <label>Email Address</label>
+                                    <input class="form-control" placeholder="Email Address">
+                                </div>
+                                <div class="form-group phone">
+                                    <label>Phone</label>
+                                    <input class="form-control" placeholder="Phone">
+                                </div>
+                                <div class="form-group address">
+                                    <label>Full Address</label>
+                                    <input class="form-control" placeholder="Full Address">
+                                </div>
+                                <div class="form-group city">
+                                    <label>City</label>
+                                    <input class="form-control" placeholder="City">
+                                </div>
+                                <div class="form-group postal">
+                                    <label>Postal Code</label>
+                                    <input class="form-control" placeholder="0123">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="box-form">
+                        <div class="head">
+                            <h3>Payment Method</h3>
+                        </div>
+                        <div class="main">
+                            <form action="" method="get">
+
+                                <div class="payment_select">
+                                    <label class="custom_select">Credit Card
+                                        <input type="radio" value="" checked="" name="payment_method">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <i class="fal fa-credit-card"></i>
+                                </div>
+                                <div class="form-group name">
+                                    <label>Name on card</label>
+                                    <input type="text" class="form-control" id="name_card_order" name="name_card_order"
+                                        placeholder="First and last name">
+                                </div>
+                                <div class="form-group cardnum">
+                                    <label>Card number</label>
+                                    <input type="text" id="card_number" name="card_number" class="form-control"
+                                        placeholder="Card number">
+                                </div>
+                                <div class="form-group expdate">
+                                    <label>Expiration date</label>
+                                    <div class="form">
+                                        <input type="text" id="expire_month" name="expire_month" class="form-control"
+                                            placeholder="mm">
+                                        <input type="text" id="expire_year" name="expire_year" class="form-control"
+                                            placeholder="yyyy">
+                                    </div>
+                                </div>
+                                <div class="form-group security">
+                                    <label>Security code</label>
+                                    <div class="form">
+                                        <input type="text" id="ccv" name="ccv" class="form-control" placeholder="CCV">
+                                        <img src="img/icon_ccv.gif" alt="ccv" width="50" height="29">
+                                        <small>Last 3 digits</small>
+                                    </div>
+
+                                </div>
+                                <!--End row -->
+                                <div class="payment_select">
+                                    <label class="custom_select">Pay with Paypal
+                                        <input type="radio" value="" name="payment_method">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <i class="fab fa-paypal"></i>
+                                </div>
+                                <div class="payment_select">
+                                    <label class="custom_select">Pay with Cash
+                                        <input type="radio" value="" name="payment_method">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <i class="far fa-wallet"></i>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar">
+                    <div class="box-form">
+                        <div class="head">
+                            <h3>Order Summary</h3>
+                            <div>Pizzeria da Alfredo</div>
+                        </div>
+                        <div class="main">
+                            <ul>
+                                <li>Date<span>Today 23/11/2019</span></li>
+                                <li>Hour<span>08.30pm</span></li>
+                                <li>Type<span>Delivery</span></li>
+                            </ul>
+                            <hr>
+                            <ul class="clearfix">
+                                <li><a href="#0">1x Enchiladas</a><span>$11</span></li>
+                                <li><a href="#0">2x Burrito</a><span>$14</span></li>
+                                <li><a href="#0">1x Chicken</a><span>$18</span></li>
+                                <li><a href="#0">2x Corona Beer</a><span>$9</span></li>
+                                <li><a href="#0">2x Cheese Cake</a><span>$11</span></li>
+                            </ul>
+
+                            <ul class="clearfix">
+                                <li>Subtotal<span>$56</span></li>
+                                <li>Delivery fee<span>$10</span></li>
+                                <li class="total">Total<span>$66</span></li>
+                            </ul>
+                            <a href="confirm.html" class="gradient-btn-1 full-width">Order Now</a>
+                            <div class="text-center"><small>Or Call Us at <strong>0432 48432854</strong></small></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Start Footer -->
+    <footer class="footer">
+        <div class="wave gray footer"></div>
+        <div class="container">
+            <div class="col">
+                <h3>Quick Links</h3>
+                <div class="content">
+                    <ul>
+                        <li><a href="">Add your restaurant</a></li>
+                        <li><a href="">My account</a></li>
+                        <li><a href="">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Categories</h3>
+                <div class="content">
+                    <ul>
+                        <li><a href="">Top Categories</a></li>
+                        <li><a href="">Best Rated</a></li>
+                        <li><a href="">Best Price</a></li>
+                        <li><a href="">Latest Submissions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col ">
+                <h3>Contacts</h3>
+                <div class="content">
+                    <ul class="contacts">
+                        <li><i class="fad fa-home-lg-alt"></i>
+                            97845 Baker st. 567<br>Los Angeles - US
+                        </li>
+                        <li><i class="fad fa-mobile-android"></i> +94 423-23-221</li>
+                        <li><i class="fad fa-envelope-square"></i> info@domain.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <h3>KEEP IN TOUCH</h3>
+                <div class="styled-input">
+                    <input type="text" placeholder="Your Email">
+                    <button class="btn">5</button>
+                </div>
+                <div class="social">
+                    <h3>FOLLOW US</h3>
+                    <div class="content">
+                        <a href="#"><img src="img/SVG/icons8_twitter.svg" alt=""></a>
+                        <a href="#"><img src="img/SVG/icons8_Facebook.svg" alt=""></a>
+                        <a href="#"><img src="img/SVG/icons8_instagram.svg" alt=""></a>
+                        <a href="#"><img src="img/SVG/icons8_whatsapp.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col last-row">
+                <div class="pay">
+                    <div class="styled-select">
+                        <select name="currency" id="currency">
+                            <option value="USD"> US Dollars</option>
+                        </select>
+                    </div>
+                    <img src="img/SVG/cards.svg" alt="cards">
+                </div>
+                <div class="info">
+                    <p>
+                        <a href="">Terms and conditions</a> | <a href="">Privacy</a> | <a href=""><i
+                                class="fad fa-copyright"></i> FoodExpress</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/utilites/dropdown.js"></script>
+    <script type="text/javascript" src="js/utilites/sticky.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <script src="js/utilites/slider.js"></script>
+
+</body>
+
+</html>

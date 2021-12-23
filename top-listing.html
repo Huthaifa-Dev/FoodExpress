@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="stylesheet" href="style/fontawesome.css">
+    <link rel="stylesheet" href="style/icons.css">
+    <link rel="stylesheet" href="style/animations.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/top-listing.css">
+
+    <title>FoodExpress</title>
+</head>
+
+<body>
+
+    <!-- Start Header -->
+    <header class="header-in header">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html" class="home">
+                    <img src="img/SVG/headerLogo.svg" alt="FoodExpress">
+                </a>
+            </div>
+
+            <!-- Main Menu -->
+            <nav class="main_menu">
+                <ul class="menu">
+                    <li class="menu_item"><a href="index.html" class="menu_link">Home</a></li>
+                    <li class="menu_item"><a href="top-listing.html" class="menu_link">Listing</a></li>
+                    <li class="menu_item"><a href="#" class="menu_link">Option 3</a></li>
+                </ul>
+            </nav>
+
+            <!-- User Menu -->
+            <div class="user_menu">
+                <ul class="menu">
+                    <li class="log_in"><a href="#">
+                            <i class="fal fa-sign-in"></i>
+                        </a></li>
+                    <li class="user_fav"><a href="#">
+                            <i class="fal fa-heart"></i>
+                        </a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main -->
+    <div class="main">
+        <div class="page_header">
+            <div class="container">
+                <div class="content">
+                    <div class="result">
+                        <!-- <h1>#count restaurants in $streetName</h1> -->
+                        <h1>145 restaurants in Convent Street 2983</h1>
+                        <a href="#">Change address</a>
+                    </div>
+                    <div class="search">
+                        <div class="search-bar">
+                            <input type="text" placeholder="Dishes, restaurants or cuisines">
+                            <button type="submit">
+                                <i class="far fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container top-content">
+            <div class="content">
+                <aside class="side-box">
+                    <div class="stickySide">
+                        <div class="order-type">
+
+                            <ul>
+                                <li>
+                                    <label class="custom_select">
+                                        Delivery
+                                        <input type="radio" name="type_order" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        Take away
+                                        <input type="radio" name="type_order" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="filter-type drop-down">
+                            <p class="dropbtn up">Sort</p>
+                            <ul class="dropdown-content show">
+                                <li>
+                                    <label class="custom_select">
+                                        Top Rated
+                                        <input type="radio" name="type_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        Recommended
+                                        <input type="radio" name="type_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        Price: low to high
+                                        <input type="radio" name="type_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        Up to 15% off
+                                        <input type="radio" name="type_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        All Offers
+                                        <input type="radio" name="type_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        City
+                                        <input type="radio" name="type_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="filter-type drop-down">
+                            <p class="dropbtn down">Categories</p>
+                            <ul class="dropdown-content">
+                                <li>
+                                    <label class="custom_select">
+                                        Top Rated
+                                        <input type="radio" name="cat_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        Recommended
+                                        <input type="radio" name="cat_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        Price: low to high
+                                        <input type="radio" name="cat_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        Up to 15% off
+                                        <input type="radio" name="cat_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        All Offers
+                                        <input type="radio" name="cat_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        City
+                                        <input type="radio" name="cat_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="filter-type drop-down">
+                            <p class="dropbtn down">City</p>
+                            <ul class="dropdown-content">
+                                <li>
+                                    <label class="custom_select">
+                                        Top Rated
+                                        <input type="radio" name="city_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        Recommended
+                                        <input type="radio" name="city_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        Price: low to high
+                                        <input type="radio" name="city_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        Up to 15% off
+                                        <input type="radio" name="city_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        All Offers
+                                        <input type="radio" name="city_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        City
+                                        <input type="radio" name="city_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="filter-type drop-down last">
+                            <p class="dropbtn down">Rating</p>
+                            <ul class="dropdown-content">
+                                <li>
+                                    <label class="custom_select">
+                                        Top Rated
+                                        <input type="radio" name="rating_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        Recommended
+                                        <input type="radio" name="rating_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        Price: low to high
+                                        <input type="radio" name="rating_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        Up to 15% off
+                                        <input type="radio" name="rating_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        All Offers
+                                        <input type="radio" name="rating_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom_select">
+                                        City
+                                        <input type="radio" name="rating_filter" id="">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <p>
+                            <a href="#" class="btn-outline full-width">Filter</a>
+                        </p>
+                    </div>
+
+                </aside>
+                <div class="main-box">
+                    <!-- row -->
+                    <div class="row">
+                        <h2 class="title-small">Top Categories</h2>
+                        <div class="owl-carousel owl-theme top-cat">
+                            <div class="item">
+                                <figure>
+                                    <img src="img/SVG/restaurant-bg.svg" alt="">
+                                    <a href="#0">
+                                        <h3>Pizza</h3>
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="item">
+                                <figure>
+                                    <img src="img/SVG/restaurant-bg.svg" alt="">
+                                    <a href="#0">
+                                        <h3>Dessert</h3>
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="item">
+                                <figure>
+                                    <img src="img/SVG/restaurant-bg.svg" alt="">
+                                    <a href="#0">
+                                        <h3>Burgher</h3>
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="item">
+                                <figure>
+                                    <img src="img/SVG/restaurant-bg.svg" alt="">
+                                    <a href="#0">
+                                        <h3>Ice Cream</h3>
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="item">
+                                <figure>
+                                    <img src="img/SVG/restaurant-bg.svg" alt="">
+                                    <a href="#0">
+                                        <h3>Kebab</h3>
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="item">
+                                <figure>
+                                    <img src="img/SVG/restaurant-bg.svg" alt="">
+                                    <a href="#0">
+                                        <h3>Local</h3>
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="item">
+                                <figure>
+                                    <img src="img/SVG/restaurant-bg.svg" alt="">
+                                    <a href="#0">
+                                        <h3>Italian</h3>
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="item">
+                                <figure>
+                                    <img src="img/SVG/restaurant-bg.svg" alt="">
+                                    <a href="#0">
+                                        <h3>Turkish</h3>
+                                    </a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /row -->
+
+                    <!-- Promo -->
+                    <div class="promo">
+                        <h3>Free Delivery for your first 14 days!</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                        <i class="icon-food_icon_delivery"></i>
+                    </div>
+                    <!-- /Promo -->
+
+                    <div class="row">
+                        <h2 class="title title-small">
+                            Top Rated
+                        </h2>
+                        <div class="top-rated-box">
+                            <div class="strip">
+                                <figure>
+                                    <span class="ribbon off">15% off</span>
+                                    <img src="img/SVG/food-bg.svg" alt="">
+                                    <a href="detail-restaurant.html" class="strip_info">
+                                        <small class="categorie">Pizza</small>
+                                        <div class="item_title">
+                                            <h3>Da Alfredo</h3>
+                                            <small>27 Old Gloucester St</small>
+                                        </div>
+                                    </a>
+                                </figure>
+                                <ul>
+                                    <li><span class="take yes">Takeaway</span> <span class="deliv yes">Delivery</span>
+                                    </li>
+                                    <li>
+                                        <div class="score"><strong>8.9</strong></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="top-rated-box">
+                            <div class="strip">
+                                <figure>
+                                    <span class="ribbon off">15% off</span>
+                                    <img src="img/SVG/food-bg.svg" alt="">
+                                    <a href="detail-restaurant.html" class="strip_info">
+                                        <small class="categorie">Pizza</small>
+                                        <div class="item_title">
+                                            <h3>Da Alfredo</h3>
+                                            <small>27 Old Gloucester St</small>
+                                        </div>
+                                    </a>
+                                </figure>
+                                <ul>
+                                    <li><span class="take yes">Takeaway</span> <span class="deliv yes">Delivery</span>
+                                    </li>
+                                    <li>
+                                        <div class="score"><strong>8.9</strong></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="top-rated-box">
+                            <div class="strip">
+                                <figure>
+                                    <span class="ribbon off">15% off</span>
+                                    <img src="img/SVG/food-bg.svg" alt="">
+                                    <a href="detail-restaurant.html" class="strip_info">
+                                        <small class="categorie">Pizza</small>
+                                        <div class="item_title">
+                                            <h3>Da Alfredo</h3>
+                                            <small>27 Old Gloucester St</small>
+                                        </div>
+                                    </a>
+                                </figure>
+                                <ul>
+                                    <li><span class="take yes">Takeaway</span> <span class="deliv yes">Delivery</span>
+                                    </li>
+                                    <li>
+                                        <div class="score"><strong>8.9</strong></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="top-rated-box">
+                            <div class="strip">
+                                <figure>
+                                    <span class="ribbon off">15% off</span>
+                                    <img src="img/SVG/food-bg.svg" alt="">
+                                    <a href="detail-restaurant.html" class="strip_info">
+                                        <small class="categorie">Pizza</small>
+                                        <div class="item_title">
+                                            <h3>Da Alfredo</h3>
+                                            <small>27 Old Gloucester St</small>
+                                        </div>
+                                    </a>
+                                </figure>
+                                <ul>
+                                    <li><span class="take yes">Takeaway</span> <span class="deliv yes">Delivery</span>
+                                    </li>
+                                    <li>
+                                        <div class="score"><strong>8.9</strong></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="top-rated-box">
+                            <div class="strip">
+                                <figure>
+                                    <span class="ribbon off">15% off</span>
+                                    <img src="img/SVG/food-bg.svg" alt="">
+                                    <a href="detail-restaurant.html" class="strip_info">
+                                        <small class="categorie">Pizza</small>
+                                        <div class="item_title">
+                                            <h3>Da Alfredo</h3>
+                                            <small>27 Old Gloucester St</small>
+                                        </div>
+                                    </a>
+                                </figure>
+                                <ul>
+                                    <li><span class="take yes">Takeaway</span> <span class="deliv yes">Delivery</span>
+                                    </li>
+                                    <li>
+                                        <div class="score"><strong>8.9</strong></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="top-rated-box">
+                            <div class="strip">
+                                <figure>
+                                    <span class="ribbon off">15% off</span>
+                                    <img src="img/SVG/food-bg.svg" alt="">
+                                    <a href="detail-restaurant.html" class="strip_info">
+                                        <small class="categorie">Pizza</small>
+                                        <div class="item_title">
+                                            <h3>Da Alfredo</h3>
+                                            <small>27 Old Gloucester St</small>
+                                        </div>
+                                    </a>
+                                </figure>
+                                <ul>
+                                    <li><span class="take yes">Takeaway</span> <span class="deliv yes">Delivery</span>
+                                    </li>
+                                    <li>
+                                        <div class="score"><strong>8.9</strong></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="top-rated-box">
+                            <div class="strip">
+                                <figure>
+                                    <span class="ribbon off">15% off</span>
+                                    <img src="img/SVG/food-bg.svg" alt="">
+                                    <a href="detail-restaurant.html" class="strip_info">
+                                        <small class="categorie">Pizza</small>
+                                        <div class="item_title">
+                                            <h3>Da Alfredo</h3>
+                                            <small>27 Old Gloucester St</small>
+                                        </div>
+                                    </a>
+                                </figure>
+                                <ul>
+                                    <li><span class="take yes">Takeaway</span> <span class="deliv yes">Delivery</span>
+                                    </li>
+                                    <li>
+                                        <div class="score"><strong>8.9</strong></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="top-rated-box">
+                            <div class="strip">
+                                <figure>
+                                    <span class="ribbon off">15% off</span>
+                                    <img src="img/SVG/food-bg.svg" alt="">
+                                    <a href="detail-restaurant.html" class="strip_info">
+                                        <small class="categorie">Pizza</small>
+                                        <div class="item_title">
+                                            <h3>Da Alfredo</h3>
+                                            <small>27 Old Gloucester St</small>
+                                        </div>
+                                    </a>
+                                </figure>
+                                <ul>
+                                    <li><span class="take yes">Takeaway</span> <span class="deliv yes">Delivery</span>
+                                    </li>
+                                    <li>
+                                        <div class="score"><strong>8.9</strong></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="page-nav-content">
+
+                        <a href="#">«</a>
+                        <a href="#" class="active">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">»</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- End Main -->
+
+
+    <!-- Start Footer -->
+    <footer class="footer">
+        <div class="wave footer"></div>
+        <div class="container">
+            <div class="col">
+                <h3>Quick Links</h3>
+                <div class="content">
+                    <ul>
+                        <li><a href="">Add your restaurant</a></li>
+                        <li><a href="">My account</a></li>
+                        <li><a href="">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Categories</h3>
+                <div class="content">
+                    <ul>
+                        <li><a href="">Top Categories</a></li>
+                        <li><a href="">Best Rated</a></li>
+                        <li><a href="">Best Price</a></li>
+                        <li><a href="">Latest Submissions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col ">
+                <h3>Contacts</h3>
+                <div class="content">
+                    <ul class="contacts">
+                        <li><i class="fad fa-home-lg-alt"></i>
+                            97845 Baker st. 567<br>Los Angeles - US
+                        </li>
+                        <li><i class="fad fa-mobile-android"></i> +94 423-23-221</li>
+                        <li><i class="fad fa-envelope-square"></i> info@domain.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <h3>KEEP IN TOUCH</h3>
+                <div class="styled-input">
+                    <input type="text" placeholder="Your Email">
+                    <button class="btn">5</button>
+                </div>
+                <div class="social">
+                    <h3>FOLLOW US</h3>
+                    <div class="content">
+                        <a href="#"><img src="img/SVG/icons8_twitter.svg" alt=""></a>
+                        <a href="#"><img src="img/SVG/icons8_Facebook.svg" alt=""></a>
+                        <a href="#"><img src="img/SVG/icons8_instagram.svg" alt=""></a>
+                        <a href="#"><img src="img/SVG/icons8_whatsapp.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col last-row">
+                <div class="pay">
+                    <div class="styled-select">
+                        <select name="currency" id="currency">
+                            <option value="USD"> US Dollars</option>
+                        </select>
+                    </div>
+                    <img src="img/SVG/cards.svg" alt="cards">
+                </div>
+                <div class="info">
+                    <p>
+                        <a href="">Terms and conditions</a> | <a href="">Privacy</a> | <a href=""><i
+                                class="fad fa-copyright"></i> FoodExpress</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/utilites/dropdown.js"></script>
+    <script type="text/javascript" src="js/utilites/sticky.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <script src="js/utilites/slider.js"></script>
+
+</body>
+
+</html>

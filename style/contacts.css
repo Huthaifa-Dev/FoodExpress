@@ -1,0 +1,150 @@
+.hero {
+  position: relative;
+  background-image: url(../img/restaurant-interior.jpg);
+  height: 620px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #ededed;
+  background-size: cover;
+  text-align: center;
+}
+
+.hero .background {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+.hero .background .container {
+  height: inherit;
+}
+
+.hero .background .content {
+  height: inherit;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+}
+
+.hero .background .content h1 {
+  line-height: 1;
+  font-size: 2.625rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.hero .background .content p {
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+.gray-bg .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em 0;
+}
+
+.gray-bg .content .box-contacts {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 31%;
+          flex: 0 0 31%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  padding: 30px 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 0.875rem;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+}
+
+.gray-bg .content .box-contacts i {
+  font-size: 2.875rem;
+  background: #f3723b;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f3723b), to(#e54750));
+  background: linear-gradient(to bottom, #f3723b, #e54750);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gray-bg .content .box-contacts h2 {
+  font-weight: 400;
+  margin: 10px 0 10px 0;
+  font-size: 1.3125rem;
+}
+
+.gray-bg .content .box-contacts a {
+  color: #444;
+}
+
+.gray-bg .content .box-contacts small {
+  display: block;
+  color: #777;
+}
+
+.contact-form {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.contact-form h5 {
+  font-size: 1.25rem;
+}
+
+.contact-form .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.contact-form .content form {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+}
+
+.contact-form .content form input, .contact-form .content form textarea {
+  width: 100%;
+}
+
+.contact-form .content .logo {
+  margin-left: 20%;
+  height: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+}
+
+.contact-form .content .logo img {
+  height: 100%;
+  width: auto;
+}
+/*# sourceMappingURL=contacts.css.map */

@@ -1,0 +1,242 @@
+.hero{
+    background-image: url(../img/restaurant-interior.jpg);
+    height: 620px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #ededed;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: 65px;
+    color: #fff;
+    .background{
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 2;
+        .container{
+            height: inherit;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .content{
+                h1 {
+                    color: #fff;
+                    line-height: 1;
+                    font-size: 2.625em;
+                    margin: 0;
+                    font-weight: 600;
+                }
+                p {
+                    font-size: 1.75rem;
+                    font-weight: 300;
+                    margin-bottom: 20px;
+                }
+
+            }
+        }
+        
+    }
+}
+.title{
+    padding-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    span{
+        width: 120px;
+        height: 2px;
+        background-color: #e1e1e1;
+        display: block;
+        margin-bottom: 1em;
+        em{
+            width: 60px;
+            height: 2px;
+            background-color: #e54750;
+            display: block;
+            margin: auto;
+        }
+    }
+    h2 {
+        max-width: inherit;
+        font-size: 2.125rem;
+    }
+    p {
+        font-size: 1.3125rem;
+        font-weight: 300;
+        max-width: inherit;
+    }
+}
+.main{
+    
+    
+    .row{
+        display: flex;
+        padding-bottom: 15px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        .col{
+            flex: 0 0 50%;
+            .box{
+                padding: 45px 45px 30px 45px;
+                position: relative;
+                border-radius: 5px;
+                h3 {
+                    font-weight: 500;
+                    font-size: 1.75rem;
+                    color: #e54750;
+                }
+                p {
+                    font-size: 0.9375rem;
+                    color: #777;
+                    line-height: 1.6;
+                    &.lead{
+                        font-size: 1.5rem;
+                        margin-bottom: 15px;
+                    }
+                }
+                .arrow_1,.arrow_2 {
+                    position: absolute;
+                    top: 100%;
+                    right: 0;
+                    z-index: 9;
+                }
+                .arrow_2{
+                    left: 0;
+                    transform: scaleX(-1);
+                }
+            }
+        }
+    }
+}
+.gray-bg{
+    .row-plans{
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        
+        .plan{
+            flex: 0 0 33%;
+            max-width: 33%;
+            text-align: center;
+            margin: 10px 0;
+            margin-right: 0px;
+            margin-left: 0px;
+            padding: 20px 20px 30px 20px;
+            text-align: center;
+            border: solid #ededed;
+            border-width: 1px 0 1px 1px;
+            background-color: #fff;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+            .plan-title {
+                position: relative;
+                margin: -25px -25px 30px -25px;
+                padding: 30px 20px 5px 20px;
+                border-bottom: 1px dotted #ccc;
+                font-size: 16px;
+                font-size: 1rem;
+                background-color: #f8f8f8;
+                color: #777;
+                h3 {
+                    margin-bottom: 0;
+                }
+                p {
+                    margin-bottom: 20px;
+                }
+            }
+            .plan-price {
+                margin: 0 auto 15px;
+                width: 110px;
+                height: 110px;
+                line-height: 115px;
+                font-size: 30px;
+                font-weight: 600;
+                color: white;
+                background: #777;
+                border-radius: 100px;
+                display: inline-block;
+                text-align: center;
+            }
+            .plan-features {
+                padding: 0;
+                margin: 0 0 20px 0;
+                li {
+                    list-style: none;
+                    strong {
+                        font-weight: 500;
+                    }
+                }
+            }
+            &.plan-recommended {
+                margin: 0;
+                background: #fff;
+                border-radius: 10px;
+                margin-right: -5px;
+                position: relative;
+                z-index: 100;
+                border: solid #e54750;
+                position: relative;
+                .plan-title {
+                    background-color: #e54750;
+                    border-bottom: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+.submit-form{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    .row{
+        display: flex;
+        justify-content: center;
+        .form{
+            flex: 0 0 40%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            .title{
+                text-align: center;
+                padding-bottom: 15px;
+                p {
+                    margin-bottom: 20px;
+                }
+                h4{
+                    font-size: 1.5rem;
+                }
+            }
+            form{
+                h6 {
+                    font-size: 1rem;
+                    flex: 0 0 100%;
+                }
+                .form-group{
+                    flex: 0 0 100%;
+                    .form-control{
+                        width: 100%;
+                    }
+                }
+                .content{
+                    display: flex;
+                    .form-group{
+                        flex: 0 0 50%;
+                    }
+                }
+                .add-b{
+                    padding-bottom: 15px;
+                }
+            }
+        }
+    }
+}
